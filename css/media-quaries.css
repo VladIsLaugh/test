@@ -1,0 +1,477 @@
+    /*---------------- 2500 ------------------*/
+    
+    @media (min-width: 2200px) and (max-width: 2500px) {
+        .header__wrap {
+            margin: 500px auto;
+        }
+        /* ------------  header ------------- */
+        .header_logo img {
+            max-width: 450px;
+        }
+        .header__nav li a {
+            font-size: 37px;
+        }
+        .header__title,
+        .advantages__title,
+        .advantages__fishka,
+        .boards__title,
+        .channel__header,
+        .surprise__header,
+        .photo__header,
+        .feedback__title {
+            font-size: 75px !important;
+        }
+        .advantages__fishka {
+            padding: 0;
+            padding-top: 122px;
+        }
+        .advant__wrap p {
+            font-size: 30px;
+        }
+        .advant__wrap {
+            margin: 80px 3px auto 27px;
+            height: 580px;
+        }
+        .advant__wrap i {
+            margin-bottom: 130px;
+            font-size: 140px;
+        }
+        .boards__title {
+            padding: 100px 0 150px;
+        }
+        .boards__wrapper {
+            padding: 10px 65px 10px;
+            max-height: 65vh;
+            height: 63vh;
+        }
+        .boards__img {
+            margin: 20px auto 50px;
+        }
+        .boadrs__text {
+            font-size: 50px;
+        }
+        .text-price__one,
+        .text-price__two {
+            font-size: 50px;
+        }
+        .text-line {
+            width: 205px;
+        }
+        .boards__price {
+            margin-top: -15px;
+        }
+        .boards__about {
+            font-size: 30px;
+        }
+        .boards__more,
+        .boards__buy {
+            margin-top: 80px;
+            font-size: 30px;
+            width: 240px;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 1500px) {
+        .advant__wrap {
+            height: 440px;
+        }
+        .boards__more {
+            width: 180px;
+        }
+        .channel__text::before {
+            left: 0;
+        }
+        .feedback {
+            height: 135vh;
+        }
+    }
+    
+    @media screen and (max-width: 1400px) {
+        .advant__wrap {
+            height: 420px;
+        }
+        .advant__wrap p {
+            font-size: 19px;
+            width: 90%;
+        }
+        .advantages__fishka {
+            margin: 0 0 0 -56px;
+        }
+        .board__down {
+            min-height: 299px;
+            margin: -36px 28px;
+            min-width: 240px;
+            max-height: 310px;
+            max-width: 240px;
+        }
+        .boards__more,
+        .boards__buy {
+            font-size: 17px;
+            width: 135px;
+        }
+        .boards__wrapper {
+            max-height: 490px;
+        }
+        .boards__img {
+            max-height: 225px;
+        }
+        .boards__wrap {
+            height: 95px;
+            margin-top: 10px;
+        }
+        .board__carv {
+            min-height: auto;
+        }
+        .channel__header {
+            padding: 20px 0 10px;
+        }
+        .channel__text::before {
+            left: -30px;
+        }
+        .surprise__top {
+            height: 210px;
+        }
+        .surprise__title {
+            font-size: 32px;
+        }
+        .surprise__bottom {
+            height: 80px;
+        }
+        .feedback {
+            height: 145vh;
+        }
+    }
+    
+    @media screen and (max-width: 1300px) {
+        .header__title {
+            font-size: 32px !important;
+        }
+        .advantages__fishka {
+            font-size: 35px;
+        }
+        .advantages__title {
+            font-size: 35px !important;
+        }
+        .advant__wrap i {
+            margin-top: -35px;
+            font-size: 80px;
+            margin-bottom: 50px;
+        }
+        .advant__desc-title {
+            font-size: 18px;
+        }
+        .advant__wrap p {
+            font-size: 16px;
+        }
+        .advant__wrap {
+            height: 390px;
+        }
+        .channel__header,
+        .boards__title,
+        .surprise__header,
+        .photo__header,
+        .feedback__title {
+            font-size: 31px !important;
+        }
+        .boards__title {
+            padding: 20px 0x;
+        }
+        .boadrs__text {
+            font-size: 27px;
+            padding: 20px 0;
+        }
+        .boards__about {
+            font-size: 18px;
+            max-height: 37px;
+        }
+        .text-price__one,
+        .text-price__two {
+            margin-bottom: 4px;
+            font-size: 25px;
+        }
+        .boards__wrap {
+            height: 80px;
+        }
+        .boards__more,
+        .boards__buy {
+            padding: 8px 0;
+            font-size: 15px;
+            width: 130px;
+        }
+        .channel__header {
+            padding: 20px 0 0;
+        }
+        .channel__text::before {
+            left: -40px;
+        }
+        .channel__title {
+            font-size: 23px !important;
+        }
+        .channel__text {
+            font-size: 15px;
+            margin: 27px 0 32px 30px;
+        }
+        .channel__text::before {
+            left: 0;
+            top: 20px;
+            width: 55px;
+        }
+        .channel__btn {
+            margin-top: 55px;
+        }
+        .surprise__title {
+            margin-top: 20px;
+            font-size: 26px;
+        }
+        .surprise__bottom {
+            font-size: 16px;
+            height: 63px;
+        }
+        .photo__header {
+            padding: 20px 0 20px;
+        }
+        .photo__title {
+            font-size: 26px;
+        }
+        .photo__text {
+            font-size: 16px;
+            margin: 0 20px;
+        }
+        .photo__wrap {
+            height: 332px;
+        }
+        .feedback__head {
+            font-size: 22px;
+            margin: 10px 0 30px;
+            color: #fff;
+        }
+        .feedback__photos img {
+            max-width: 125px;
+            max-height: 125px;
+        }
+        .header__nav li a,
+        .footer__nav li a {
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .header__wrap {
+            height: 300px;
+        }
+        .header__info {
+            background-position-y: -101em;
+        }
+        .boards__wrap-overlay {
+            height: 245px;
+        }
+        .overlay__title {
+            font-size: 22px;
+        }
+        .overlay__text-board {
+            font-size: 14px;
+        }
+        .boards__about {
+            font-size: 16px;
+        }
+        .boards__more,
+        .boards__buy {
+            font-size: 14px;
+            width: 115px;
+        }
+        .channel__text::before {
+            left: -25px;
+        }
+        .channel__header {
+            padding: 20px 0 30px;
+        }
+        .surprise__top {
+            height: 200px;
+        }
+        .surprise__bottom {
+            height: 80px;
+        }
+        .photo__wrap {
+            height: 360px;
+        }
+        .feedback__photos img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .feedback__descr {
+            font-size: 14px;
+        }
+        .feedback__wrap {
+            height: 200px;
+        }
+        .feedback {
+            height: 135vh;
+        }
+    }
+    
+    @media screen and (max-width: 1199px) {
+        .overlay {
+            height: 100%;
+        }
+        .header_logo img {
+            max-width: 210px;
+        }
+        .header__nav li {
+            margin: 20px 15px;
+        }
+        .header__info {
+            background-position-y: -85em;
+        }
+        .advantages {
+            height: 180vh;
+        }
+        .advant__wrap {
+            margin: 20px 3px 0;
+        }
+        .advant__wrap i {
+            margin-top: -15px;
+            font-size: 120px;
+            margin-bottom: 90px;
+        }
+        .advant__wrap .advant__desc-title {
+            font-size: 28px;
+        }
+        .advant__wrap p {
+            font-size: 17px;
+        }
+        .boards {
+            height: 134vh;
+        }
+        .boards__wrap-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            max-width: 51%;
+            width: 50%;
+        }
+        .boards__wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: start;
+            max-height: 370px;
+            height: 320px;
+        }
+        .boards__img {
+            max-width: 45%;
+            min-width: 40%;
+            max-height: 290px;
+            margin-top: -8px;
+        }
+        .boards__wrap {
+            height: 115px;
+        }
+        .boards__about {
+            margin-bottom: 30px;
+        }
+        .boadrs__text {
+            padding: 20px 15px 20px 0;
+        }
+        .boards__btns {
+            flex-wrap: wrap;
+            max-width: 100%;
+            width: 99%;
+        }
+        .boards__more,
+        .boards__buy {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .boards__wrapper-last {
+            margin: 10px auto;
+        }
+        .boards__wrap-overlay {
+            height: 100%;
+            width: 52%;
+        }
+        .overlay__title {
+            font-size: 24px;
+            margin-top: -20px;
+        }
+        .overlay__text-board {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 18px;
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+        header {
+            position: fixed;
+        }
+        .menu-open i {
+            font-size: 30px;
+            margin: 20px 25px;
+        }
+        .header__nav .smooth-scroll-last,
+        .footer__nav .smooth-scroll-last {
+            margin: 20px auto;
+        }
+        .header__nav li {
+            margin: 20px auto;
+        }
+        .header__nav li {
+            margin: 20px 30px;
+            background: rgba(0, 0, 0, .3);
+            border-radius: 5px;
+            padding: 9px 0;
+            max-width: 150px;
+            border-radius: 20px 0 20px;
+        }
+        .overlayMenu a {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+    }
+/*(max-width 320px).*/
+@media screen and (max-width: 320px) {
+
+	body{
+		width: 320px;		
+	}
+	
+          
+    }
+            
+	#edu{
+		font-weight:bold;
+		color: #9c27b0;
+
+
+
+ 
+}
+
+@media print { /* Стиль для друку - Media queries*/
+    body {
+     font-family: Arial; /* Шрифт с засічками */
+    }
+	/*Flexbox displaying*/
+    #first {
+     display: none; /* Приховати заголовок при друку */
+ 
+
+@media screen and (min-width: 727px) {
+    .channel{
+          margin-bottom: 400px;
+            
+}    }        
+
+@media screen and (min-width: 1199px) {
+        
+    .surprise{
+        margin-top:370px;
+    }
+    
+    }       
+}    }
+}

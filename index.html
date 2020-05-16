@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>LongBoard | Ukraine</title>
+
+
+    <!-- ----------- FONTS ----------- -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic,cyrillic-ext"
+        rel="stylesheet">
+
+    <!-- ----------- STYLES ----------- -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet ">
+    <link rel="stylesheet" href="css/media-quaries.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+    <!-- ----------- SCRIPTS ----------- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <!--Фіксоване верхнє меню - 2 властивості-->
+        <div id="container" style="overflow: hidden; position: fixed; background-color: lightgray; width: 100%;">
+            <div class="header__wrapper">
+                <a class="header_logo">
+                    <img src="img/logo_image.png" alt="Лонгборди">
+                </a>
+                <div class="header-overlay__wrap">
+                    <nav class="d-none d-lg-block menu-collapse">
+                        
+                        <ul role="menu" class="header__nav d-flex justify-content-center">
+                            <li class="header-btn header-btn-primary">Світла тема</li>
+                            <li class="smooth-scroll"><a href="#advantages">Фішки</a></li>
+                            <li class="smooth-scroll"><a href="#boards">Лонгборди</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Long 1</a></li>
+                                    <li><a href="#">Long 2</a></li>
+                                    <li><a href="#">Long 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="smooth-scroll"><a href="#gallery">Галерея</a></li>
+                            <li class="smooth-scroll"><a href="#feedback">Відгуки</a></li>
+                            <li class="header-btn header-btn-secondary hide">asdfdf</li>
+                        </ul>
+                        
+                    </nav>
+                </div>
+                <div class="d-block d-lg-none navBurger" role="navigation" id="navToggle"></div>
+    
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+              </div>  
+        </div>
+        
+    </header>
+    <section class="header__info">
+        <div id="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <a href="#boards" class="header__wrap">
+                        <p class="header__title text-center">
+                            <br>Ексклюзивні лонгборди  для  любого  стилю  катання <br><br> +380980555351<br>
+                        </p>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ********************************************************************** -->
+    <!--Advantages AREA-->
+    <section class="advantages " id="advantages">
+        <div class="advantages__overlay overlay"></div>
+        <div id="container">
+            <p class="advantages__fishka text-center">Фішки лонгбордиста</p>
+            <div class="row">
+                <div class="col-sm-6 col-xl-3 text-center wow bounceIn">
+                    <div class="advant__wrap">
+                        <i class="fa fa-rocket" aria-hidden="true"></i>
+                        <p class="text-uppercase advant__desc-title">Реактивний Дизайн</p>
+                        <p>
+                            Лонгборд має реактивний дизайн, який задовільняє потреби любого. Підбираємо лонг для хлопців
+                            і дівчат.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3 text-center wow bounceInUp">
+                    <div class="advant__wrap">
+                        <i class="fa fa-thumbs-up " aria-hidden="true"></i>
+                        <p class="text-uppercase advant__desc-title">Якість</p>
+                        <p>
+                            Лонгборди зроблені по Європейським стандартам. Лонги витримують до 120 кг навантаження.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3 text-center wow pulse">
+                    <div class="advant__wrap">
+                        <i class="fa fa-paper-plane-o " aria-hidden="true"></i>
+                        <p class="text-uppercase advant__desc-title">Зручна Покупка</p>
+                        <p class="advant__descr">Лонгборд можна купити не тільки в Україні, використовуючи наш TELEGRAM
+                            BOT
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3 text-center wow shake">
+                    <div class="advant__wrap">
+                        <i class="fa fa-gift " aria-hidden="true"></i>
+                        <p class="text-uppercase advant__desc-title">Знижки і Бонуси</p>
+                        <p>
+                            Кожний придбаний ЛОНГБОРД доповнюється бонусами і знижками
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ******************************************************************** -->
+    <!------------------------------------  Cart section------------------------->
+    <section class="boards" id="boards">
+        <div class="boards__overlay overlay"></div>
+        <div id="container">
+            <h2 class="boards__title text-center wow wow bounceInRight">
+                Лонгборд -
+                <span>Ціна і Надійність</span>
+            </h2>
+            <div class="row wow bounceInLeft justify-between">
+                <div class="col-sm-6 col-xl-3 boards__wrapper">
+                    <div class="boards__wrap-overlay">
+                        <p class="overlay__title text-center">Carving</p>
+                        <p class="overlay__text-board">
+                            Якщо катались на сноуборді чи сьорфі, то карвинг лонгборд для вас. Траекторія їзди нагадує
+                            букву S. Якщо хочете катати по вулицям з легким нахилоом – беріть :)
+                        </p>
+                    </div>
+                    <img src="img/downhill.jpg" alt="недорогий лонгборд карвинг купити ціна"
+                        class="boards__img board__carv">
+                    <div class="boards__wrap-text">
+                        <div class="boards__wrap d-flex justify-between">
+                            <p class="boadrs__text text-price">
+                                Carving
+                            </p>
+                            <div class="boards__price">
+                                <p class="text-price__one">109$</p>
+                                <div class="text-line"></div>
+                                <p class="text-price__two">2749&#8372;</p>
+                            </div>
+                        </div>
+                        <p class="boards__about text-center">Для вулиць з легким нахилом</p>
+                        <div class="boards__btns d-flex justify-between">
+                            <a class="boards__more text-uppercase " href="#gallery__carv">докладніше</a>
+                            <a class="boards__buy text-uppercase " href="">Купити</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3 boards__wrapper">
+                    <div class="boards__wrap-overlay">
+                        <p class="overlay__title text-center">Downhill</p>
+                        <p class="overlay__text-board">
+                            Лонгборд для тих, хто не боїться великої швидкості, різких нахилів і небезпеки. <br> Даунхіл
+                            лонгборд купити – стати екстрималом, будьте готові :)
+                        </p>
+                    </div>
+                    <img src="img/downhill.jpg" alt="даунхіл лонгборд купити ціна" class="boards__img">
+                    <div class="boards__wrap-text">
+                        <div class="boards__wrap d-flex justify-between">
+                            <p class="boadrs__text text-price">
+                                Freeride
+                            </p>
+                            <div class="boards__price">
+                                <p class="text-price__one">127$</p>
+                                <div class="text-line"></div>
+                                <p class="text-price__two">3249&#8372;</p>
+                            </div>
+                        </div>
+                        <p class="boards__about text-center">Для любителів швидкості</p>
+                        <div class="boards__btns d-flex justify-between">
+                            <a class="boards__more text-uppercase " href="#gallery__down">докладніше</a>
+                            <a class="boards__buy text-uppercase " href="">Купити</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3 boards__wrapper boards__wrapper-last">
+                    <div class="boards__wrap-overlay">
+                        <p class="overlay__title text-center">Cruiser</p>
+                        <p class="overlay__text-board">
+                            Круізер лонгборд – це скоріш не про швидкість, а про красу и універсальність. Чудовий вибір
+                            для нешвидкісних катань по місті, попробуйте самі :)
+                        </p>
+                    </div>
+                    <img src="img/downhill.jpg" alt="купити лонгборд круізер в україні" class="boards__img">
+                    <div class="boards__wrap-text">
+                        <div class="boards__wrap d-flex justify-between">
+                            <p class="boadrs__text text-price">
+                                Cruiser
+                            </p>
+                            <div class="boards__price">
+                                <p class="text-price__one">115$</p>
+                                <div class="text-line"></div>
+                                <p class="text-price__two">2949&#8372;</p>
+                            </div>
+                        </div>
+                        <p class="boards__about text-center">Для міської розміреної їзди</p>
+                        <div class="boards__btns d-flex justify-between">
+                            <a class="boards__more text-uppercase" href="#gallery__cruis">докладніше</a>
+                            <a class="boards__buy text-uppercase" href="">Купити</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ************************************************ -->
+    <!--***************************coffee to board section-->
+    <section class="channel" id="channel">
+        <div class="channel__overlay"></div>
+        <div id="container">
+            <h2 class="channel__header text-center">
+                Телеграм - Бот
+            </h2>
+            <div class="row d-flex">
+                <div class="col-xl-6">
+                    <div class="channel__wrap text-center wow swing">
+                        <div class="channel__wrap text-center wow swing">
+                            <img src="img/Bot.jpg" alt="" class="channel__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="channel__wrap text-center wow swing">
+                        <h3 class="channel__title">
+                            Користуйтесь нашим <br> ботом
+                            <span><a href="" target="_blank">@LongBordistBot</a></span>
+                        </h3>
+                        <p class="channel__text-one channel__text">
+                            Зручний вибір лонгбордів в телеграм боті. Вводите ваше ім'я, контактний телефон для
+                            зворотнього зв'язку і переходите до функціоналу
+                        </p>
+                        <p class="channel__text-two channel__text">
+                            Вибираєте стиль катання, який вас зацікавив, дивитесь фотографії, опис, ціну і приймаєте
+                            рішення, чи добавляти лонгборд у кошик
+                        </p>
+                        <p class="channel__text-three channel__text">
+                            Коли кошик сформований, Ви можете вказати адресу доставки (безкоштовна по Україні) чи
+                            забрати лонгборд (и) самі
+                        </p>
+                        <a class="boards__buy text-uppercase margin channel__btn" href="" target="_blank">Купити</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ************************************************ -->
+    <!--***************************coffee to board section-->
+    <section class="surprise " id="surprise ">
+        <div class="surprise__overlay overlay "></div>
+        <div id="container ">
+            <div class="row ">
+                <h3 class="surprise__header text-center ">
+                    <span>Реактивний</span> Лонгборд - <br> Бадьорлива
+                    <span>Кава</span>
+                </h3>
+                <div class="col-sm-4 ">
+                    <div class="surprise__wrap text-center wow swing ">
+                        <div class="surprise__top "></div>
+                        <p class="surprise__title ">Кава</p>
+                        <p class="surprise__bottom ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a ipsum nec turpis
+                            tempor iaculis.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div class="surprise__wrap text-center wow swing ">
+                        <div class="surprise__top "></div>
+                        <p class="surprise__title ">Кава</p>
+                        <p class="surprise__bottom ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a ipsum nec turpis
+                            tempor iaculis.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div class="surprise__wrap text-center wow swing ">
+                        <div class="surprise__top "></div>
+                        <p class="surprise__title ">Кава</p>
+                        <p class="surprise__bottom ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a ipsum nec turpis
+                            tempor iaculis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ***************************************************** -->
+    <!-- ----------------------------------------SECTION PHOTO -->
+    <section class="photo " id="gallery">
+        <div id="container">
+            <div class="row">
+                <h3 class="photo__header text-center">
+                    Лонгборди від Компанії
+                    <span>Лонгбордист</span>
+                </h3>
+                <div class="col-12">
+                    <div class="photo__wrap photo__item item__one " id="gallery__down">
+                        <img src="img/img-5.png " class="photo__image photo__right-side " alt="даунхіл лонгборд купити">
+                        <p class="photo__title text-center">Downhill</p>
+                        <p class="photo__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum egestas tellus
+                            eu viverra. Nam blandit at metus nec tempor. In rutrum lorem id bibendum volutpat. Cras vel
+                            ipsum eget leo malesuada tincidunt eget vel nisl. Donec placerat molestie bibendum. Etiam
+                            mollis, libero sit amet viverra faucibus, tortor orci finibus sem, nec venenatis purus metus
+                            sed lacus. Morbi sit amet porttitor dolor, vulputate pulvinar massa. Quisque viverra
+                            hendrerit semper. Curabitur vulputate urna mauris, et vehicula elit vulputate at. Maecenas
+                            ullamcorper erat in sem ullamcorper, in gravida tellus condimentum. Pellentesque porttitor
+                            nisl sed auctor gravida. Integer id mauris efficitur, tempor nulla eu, venenatis eros.
+                            Phasellus volutpat at libero id commodo. Suspendisse potenti. Aenean quis lectus mi.
+                        </p>
+                        <div class="photo__links d-flex">
+                            <a href="# " class="photo__fb">
+                                <img src="https://img.icons8.com/nolan/64/000000/facebook.png " alt="ffseafd">
+                            </a>
+                            <a href="# " class="photo__inst">
+                                <img src="https://img.icons8.com/nolan/64/000000/instagram-new.png " alt="ffseafd">
+                            </a>
+                            <a href="# " class="photo__telega">
+                                <img src="https://img.icons8.com/nolan/64/000000/telegram-app.png " alt="ffseafd">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="photo__wrap photo__item item__one " id="gallery__cruis">
+                        <img src="img/img-5.png " class="photo__image " alt="лонгборд круізер купити">
+                        <p class="photo__title text-center">Cruiser</p>
+                        <p class="photo__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum egestas tellus
+                            eu viverra. Nam blandit at metus nec tempor. In rutrum lorem id bibendum volutpat. Cras vel
+                            ipsum eget leo malesuada tincidunt eget vel nisl. Donec placerat molestie bibendum. Etiam
+                            mollis, libero sit amet viverra faucibus, tortor orci finibus sem, nec venenatis purus metus
+                            sed lacus. Morbi sit amet porttitor dolor, vulputate pulvinar massa. Quisque viverra
+                            hendrerit semper. Curabitur vulputate urna mauris, et vehicula elit vulputate at. Maecenas
+                            ullamcorper erat in sem ullamcorper, in gravida tellus condimentum. Pellentesque porttitor
+                            nisl sed auctor gravida. Integer id mauris efficitur, tempor nulla eu, venenatis eros.
+                            Phasellus volutpat at libero id commodo. Suspendisse potenti. Aenean quis lectus mi.
+                        </p>
+                        <div class="photo__links d-flex">
+                            <a href="# " class="photo__fb">
+                                <img src="https://img.icons8.com/nolan/64/000000/facebook.png " alt="ffseafd">
+                            </a>
+                            <a href="# " class="photo__inst">
+                                <img src="https://img.icons8.com/nolan/64/000000/instagram-new.png " alt="ffseafd">
+                            </a>
+                            <a href="# " class="photo__telega">
+                                <img src="https://img.icons8.com/nolan/64/000000/telegram-app.png " alt="ffseafd">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="photo__wrap photo__item item__one">
+                        <img src="img/img-5.png " class="photo__image photo__right-side " alt="">
+                        <p class="photo__title text-center">CARVING</p>
+                        <p class="photo__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum egestas tellus
+                            eu viverra. Nam blandit at metus nec tempor. In rutrum lorem id bibendum volutpat. Cras vel
+                            ipsum eget leo malesuada tincidunt eget vel nisl. Donec placerat molestie bibendum. Etiam
+                            mollis, libero sit amet viverra faucibus, tortor orci finibus sem, nec venenatis purus metus
+                            sed lacus. Morbi sit amet porttitor dolor, vulputate pulvinar massa. Quisque viverra
+                            hendrerit semper. Curabitur vulputate urna mauris, et vehicula elit vulputate at. Maecenas
+                            ullamcorper erat in sem ullamcorper, in gravida tellus condimentum. Pellentesque porttitor
+                            nisl sed auctor gravida. Integer id mauris efficitur, tempor nulla eu, venenatis eros.
+                            Phasellus volutpat at libero id commodo. Suspendisse potenti. Aenean quis lectus mi.
+                        </p>
+                        <div class="photo__links d-flex">
+                            <a href="# " class="photo__fb">
+                                <img src="https://img.icons8.com/nolan/64/000000/facebook.png " alt="ffseafd">
+                            </a>
+                            <a href="# " class="photo__inst">
+                                <img src="https://img.icons8.com/nolan/64/000000/instagram-new.png " alt="ffseafd">
+                            </a>
+                            <a href="# " class="photo__telega">
+                                <img src="https://img.icons8.com/nolan/64/000000/telegram-app.png " alt="ffseafd">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ************************************* -->
+    <!--********************* feedback ***************-->
+    <section class="feedback " id="feedback " style="height: 630px;">
+        <div id="container ">
+            <div class="row ">
+                <h3 class="feedback__title text-center ">Відгуки</h3>
+                <div class="feedback__wrap d-flex wrap">
+                    <div class="col-6">
+                        <div class="feedback__slider">
+                            <div class="feedback__wrap d-flex">
+                                <div class="feedback__member">
+                                    <img src="img/coffee.jpg" alt="" class="feedback__icon">
+                                    <p class="feedback__name text-center">Small Smolvile</p>
+                                    <span class="feedback__work text-center">
+                                        Client
+                                    </span>
+                                </div>
+                                <div class="feedback__text">
+                                    <p class="feedback__head text-center">Чудовий лонг</p>
+                                    <p class="feedback__descr">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a ipsum
+                                        nec turpis tempor iaculis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="feedback__slider">
+                            <div class="feedback__wrap d-flex">
+                                <div class="feedback__member">
+                                    <img src="img/coffee.jpg" alt="" class="feedback__icon">
+                                    <p class="feedback__name text-center">Small Smolvile</p>
+                                    <span class="feedback__work text-center">
+                                        Client
+                                    </span>
+                                </div>
+                                <div class="feedback__text">
+                                    <p class="feedback__head text-center">Чудовий лонг</p>
+                                    <p class="feedback__descr">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a ipsum
+                                        nec turpis tempor iaculis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="feedback__slider">
+                            <div class="feedback__wrap d-flex">
+                                <div class="feedback__member">
+                                    <img src="img/coffee.jpg" alt="" class="feedback__icon">
+                                    <p class="feedback__name text-center">Small Smolvile</p>
+                                    <span class="feedback__work text-center">
+                                        Client
+                                    </span>
+                                </div>
+                                <div class="feedback__text">
+                                    <p class="feedback__head text-center">Чудовий лонг</p>
+                                    <p class="feedback__descr">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a ipsum
+                                        nec turpis tempor iaculis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="feedback__slider">
+                            <div class="feedback__wrap d-flex">
+                                <div class="feedback__member">
+                                    <img src="img/coffee.jpg" alt="" class="feedback__icon">
+                                    <p class="feedback__name text-center">Small Smolvile</p>
+                                    <span class="feedback__work text-center">
+                                        Client
+                                    </span>
+                                </div>
+                                <div class="feedback__text">
+                                    <p class="feedback__head text-center">Чудовий лонг</p>
+                                    <p class="feedback__descr">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a ipsum
+                                        nec turpis tempor iaculis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>Лонгборди від Компанії
+    </section>
+    <!-- ********************* -->
+    <section class="photo " id="gallery">
+        <div id="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="margin-top-0 wow fadeIn"
+                        style="visibility: visible; animation-name: fadeIn; margin-top:20px">Get in Touch</h2>
+                    <hr class="primary">
+                    <p style="font:15px Arial;">We love feedback. Fill out the form below and we'll get back to you as
+                        soon as possible.</p>
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <!--Форма з різними типами полів-->
+                    <form class="contact-form row">
+                        <div class="col-md-4">
+                            <label class="text-danger contact-form-name-label"></label> <input
+                                class="form-control contact-form-name" placeholder="name" type="text">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="text-danger contact-form-email-label"></label> <input
+                                class="form-control contact-form-email" placeholder="email" type="email">
+                        </div>
+                        <div class="col-md-4">
+                            <label class=" text-danger contact-form-tel-label"></label> <input class="form-control contact-form-tel"
+                                placeholder="123-45-678" type="tel">
+                        </div>
+                        <div class="col-md-12">
+                            <label class="text-danger contact-form-textarea-label"></label>
+                            <textarea class="  form-control contact-form-textarea" placeholder="Your message here.."
+                                rows="9"></textarea>
+                        </div>
+
+
+
+                        <div class="col-md-4 col-md-offset-4">
+                            <label></label> <button class="contact-form-submit btn btn-primary btn-block btn-lg"
+                               >Send</button>
+                        </div>
+                    </form>
+                </div>
+                <section class="container">
+
+                </section>
+            </div>
+        </div>
+
+        <footer style="margin-bottom: -50px; ">
+            <div class="container">
+                <div class="header__wrapper footer__wrap ">
+                    <a class="header_logo " href="index.html ">
+                        <img src="img/logo_image.png " alt="Лонгборды ">
+                    </a>
+                    <nav>
+                        <ul class="header__nav footer__nav ">
+                            <li class="smooth-scroll ">
+                                <a href="#advantages ">Фішки</a>
+                            </li>
+                            <li class="smooth-scroll ">
+                                <a href="#boards ">Лонгборди</a>
+                            </li>
+                            <li class="smooth-scroll ">
+                                <a href="#surprise ">Подарунки</a>
+                            </li>
+                            <li class="smooth-scroll ">
+                                <a href="#gallery ">Галерея</a>
+                            </li>
+                            <li class="smooth-scroll ">
+                                <a href="#feedback ">Відгуки</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+        <script src="js/script.js"> </script>
+        <script src="js/jquery.min.js "></script>
+        <script src="js/bootstrap.min.js "></script>
+        <script src="js/jquery.prettyPhoto.js "></script>
+        <script src="js/isotope.2.2.2min.js "></script>
+        <script src="js/wow.min.js "></script>
+        <script src="js/main.js "></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+.
